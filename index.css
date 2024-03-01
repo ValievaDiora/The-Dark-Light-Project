@@ -1,0 +1,857 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+/* font-family: 'EB Garamond', serif; */
+/* font-family: 'Outfit', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#header {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(3, 52, 100);
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  min-width: 1450px;
+  background-color: rgb(3, 52, 100);
+}
+.icon-text-container {
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+.pages-h2 {
+  vertical-align: middle;
+  color: whitesmoke;
+  font-size: 35px;
+  cursor: default;
+}
+.mainIcon {
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+}
+.icons {
+  display: inline-block;
+  margin-right: 35%;
+}
+.facebook,
+.twitter,
+.linkedin {
+  vertical-align: middle;
+  border: 2px solid whitesmoke;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover {
+  box-shadow: 1px 1px 30px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+.menu {
+  display: inline-block;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.menu-text {
+  color: whitesmoke;
+  font-size: 17px;
+  margin-right: 50px;
+  border: none;
+  outline: none;
+  transition: 0.1s;
+}
+.menu-text:hover {
+  text-shadow: 1px 1px 50px rgb(243, 208, 8);
+  color: gold;
+  cursor: pointer;
+}
+.order {
+  color: rgb(0, 47, 96);
+  background-color: gold;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.order:hover {
+  box-shadow: 1px 1px 80px 10px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+
+.welcome-to-pages {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  background-color: rgb(3, 52, 100);
+}
+.welcome-text {
+  margin-top: 10%;
+  margin-left: 5%;
+  display: inline-block;
+}
+.horizontal-line {
+  display: flex;
+  align-items: center;
+}
+.horizontal-line-p {
+  border-top: 2px solid gold;
+  width: 50px;
+}
+.p-welcome {
+  margin-left: 13px;
+  font-size: 23px;
+  color: whitesmoke;
+  cursor: default;
+}
+.p-bestWriter {
+  margin-left: 5px;
+  font-size: 100px;
+  color: whitesmoke;
+  cursor: default;
+}
+.lampBook-img {
+  flex: 1;
+  margin: 100px;
+  margin-top: 4%;
+}
+.p-weBelieve {
+  color: whitesmoke;
+  margin: 5px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  cursor: default;
+}
+.btn-order {
+  margin-top: 45px;
+  color: rgb(0, 47, 96);
+  background-color: gold;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-order:hover {
+  box-shadow: 1px 1px 60px 10px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+.read-free {
+  color: whitesmoke;
+  margin: 53px;
+  font-size: 25px;
+  border-bottom: 2px solid whitesmoke;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.read-free:hover {
+  text-shadow: 1px 1px 50px rgb(243, 208, 8);
+  color: gold;
+  border-color: gold;
+}
+/* -------------------------------------- */
+.circle-plr {
+  display: flex;
+}
+.pages-lenght-rating {
+  flex: 1;
+  margin-top: 60px;
+  position: relative;
+  background: 0;
+  cursor: default;
+}
+.plr {
+  vertical-align: middle;
+  background: 0;
+  font-size: 35px;
+  color: whitesmoke;
+}
+.p-plr {
+  margin-top: 8px;
+  background: 0;
+  font-size: 21px;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+.pages-lenght-rating::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px; /* Размер кружка */
+  height: 15px;
+  background-color: gold; /* Цвет кружка */
+  border-radius: 50%; /* Превратить элемент в круг */
+  margin-right: 5px;
+}
+
+.author {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  height: 775px;
+  background-color: whitesmoke;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+.author-p {
+  margin: 30px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 46px;
+  color: rgb(3, 52, 100);
+}
+
+.horizontal-line2 {
+  display: flex;
+  margin-left: 730px;
+  border-top: 3px solid gold;
+  width: 75px;
+}
+
+.palm-lamp {
+  display: flex;
+  background: 0;
+  padding: 5px;
+}
+.palmBook-img {
+  background: none;
+  border: 0;
+  margin-top: 80px;
+  margin-left: 78px;
+}
+.lampBook2-img {
+  background: none;
+  border: none;
+  margin-top: 80px;
+  margin-right: 10px;
+}
+
+.palm-p {
+  margin-top: 120px;
+  margin-left: 10px;
+  margin-right: 170px;
+  color: rgb(3, 52, 100);
+  font-size: 37px;
+}
+
+.price-13 {
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+  margin-left: 12px;
+  color: gold;
+  font-size: 23px;
+}
+.price-text1 {
+  font-family: "Outfit", sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: rgb(155, 155, 155);
+  font-size: 20px;
+}
+.lamp-p {
+  white-space: nowrap;
+  margin-top: 120px;
+  margin-left: 10px;
+  color: rgb(3, 52, 100);
+  font-size: 37px;
+}
+.price-86 {
+  white-space: nowrap;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+  margin-left: 12px;
+  color: gold;
+  font-size: 23px;
+}
+.price-text2 {
+  font-family: "Outfit", sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: rgb(155, 155, 155);
+  font-size: 20px;
+}
+
+.circle-ao {
+  margin-top: 25px;
+  margin-left: 10px;
+  position: relative;
+  background: 0;
+  cursor: default;
+}
+.circle-ao::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px; /* Размер кружка */
+  height: 15px;
+  background-color: gold; /* Цвет кружка */
+  border-radius: 50%; /* Превратить элемент в круг */
+  margin-right: 5px;
+}
+
+.ao {
+  vertical-align: middle;
+  font-size: 27px;
+  color: rgb(3, 52, 100);
+}
+
+.circle-l {
+  margin-top: 25px;
+  margin-left: 10px;
+  position: relative;
+  background: 0;
+  cursor: default;
+}
+.circle-l::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px; /* Размер кружка */
+  height: 15px;
+  background-color: gold; /* Цвет кружка */
+  border-radius: 50%; /* Превратить элемент в круг */
+  margin-right: 5px;
+}
+
+.l {
+  vertical-align: middle;
+  font-size: 27px;
+  color: rgb(3, 52, 100);
+}
+
+/* -----------ABOUT AUTHOR DIV!!!------------ */
+.about-author {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  height: 775px;
+  background-color: #f1f5f5;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+.about-author-img {
+  flex: 1;
+  margin-top: 30px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.aa-img1,
+.aa-img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.aa-img1 {
+  z-index: 1;
+}
+.aa-img2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 630px;
+}
+
+.about-author-text {
+  display: inline-block;
+  margin-right: 360px;
+}
+.about-author-p {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  color: rgb(3, 52, 100);
+  margin-top: 120px;
+}
+.horizontal-line-au1 {
+  margin-top: 20px;
+  border-top: 3px solid gold;
+  width: 50px;
+}
+.au-main-text {
+  margin-top: 45px;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: rgb(155, 155, 155);
+}
+
+.ratings-hl {
+  position: absolute;
+  display: inline-flex;
+  margin-top: 410px;
+  margin-left: 670px;
+  cursor: default;
+}
+/* --- */
+.ratings-hl1 {
+  border-right: 2px solid gold;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.books-published1 {
+  color: rgb(3, 52, 100);
+  font-size: 45px;
+  font-family: "EB Garamond", serif;
+}
+.books-published2 {
+  color: rgb(155, 155, 155);
+  font-family: "Outfit", sans-serif;
+}
+/* --- */
+.ratings-hl2 {
+  border-right: 2px solid gold;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.user-reviews1 {
+  color: rgb(3, 52, 100);
+  font-size: 45px;
+  font-family: "EB Garamond", serif;
+}
+.user-reviews2 {
+  color: rgb(155, 155, 155);
+  font-family: "Outfit", sans-serif;
+}
+
+/* --- */
+.ratings-hl3 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.bs-awards1 {
+  color: rgb(3, 52, 100);
+  font-size: 45px;
+  font-family: "EB Garamond", serif;
+}
+.bs-awards2 {
+  color: rgb(155, 155, 155);
+}
+
+.qr {
+  position: absolute;
+  display: inline-flex;
+  margin-top: 535px;
+  margin-left: 715px;
+  cursor: default;
+  background-color: rgb(3, 52, 100);
+  border-radius: 4px;
+}
+
+.qr-img {
+  display: flex;
+  padding: 10px;
+}
+
+.qr-img1 {
+  width: 110px;
+  height: 110px;
+}
+.qr-name {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 120px;
+  font-size: 22px;
+  font-family: "EB Garamond", serif;
+  color: gold;
+}
+.qr-contact {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: "Outfit", sans-serif;
+  color: whitesmoke;
+}
+
+.logos4 {
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  height: 550px;
+  font-family: "EB Garamond", serif;
+}
+.logos-trusted {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  color: rgb(3, 52, 100);
+  font-size: 42px;
+  margin-left: 40%;
+}
+.trusted-hl {
+  margin-top: 30px;
+  border-bottom: 3px solid gold;
+  width: 80px;
+  margin-left: 30%;
+}
+.logos-img {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.logos-p {
+  display: inline-flex;
+  gap: 190px;
+  margin-top: 30px;
+  margin-left: 180px;
+  color: rgb(3, 52, 100);
+  font-size: 28px;
+}
+.logos-p2 {
+  display: inline-flex;
+  position: absolute;
+  gap: 250px;
+  margin-left: 225px;
+  margin-top: 28px;
+  color: rgb(3, 52, 100);
+  font-size: 28px;
+}
+.logos-text {
+  display: flex;
+  color: rgb(155, 155, 155);
+  font-family: "Outfit", sans-serif;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+  text-align: center;
+  font-size: 17px;
+}
+.coffee {
+  display: flex;
+  background-color: rgb(3, 52, 100);
+  width: 100%;
+  height: 550px;
+  font-family: "EB Garamond", serif;
+}
+.get-book {
+  flex: 1;
+}
+.gb-h1 {
+  color: whitesmoke;
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.gb-hl {
+  border: 1px solid gold;
+  width: 70px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.gb-p {
+  color: rgb(196, 196, 196);
+  font-family: "Outfit", sans-serif;
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 17px;
+}
+.coffee-img {
+  flex: 1;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.girl-book {
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  height: 920px;
+  font-family: "EB Garamond", serif;
+}
+.wwyl {
+  color: rgb(3, 52, 100);
+  font-size: 43px;
+  margin-top: 33px;
+  margin-left: 570px;
+}
+.wwyl-hl {
+  border: 2px solid gold;
+  width: 70px;
+  margin-top: 20px;
+  margin-left: 705px;
+}
+.containers {
+  display: flex;
+  margin-top: 150px;
+  position: absolute;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 170px;
+  color: rgb(3, 52, 100);
+}
+.c4 {
+  background-color: #e6edf8;
+  height: 250px;
+  width: 250px;
+}
+.circle1 {
+  margin-top: 20px;
+  margin-left: 23px;
+  font-size: 25px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: gold;
+  border-radius: 50%;
+}
+.circle1-p {
+  margin-top: 35px;
+  margin-left: 23px;
+  font-size: 22px;
+}
+.circle2 {
+  margin-top: 15px;
+  margin-left: 23px;
+  font-size: 25px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: gold;
+  border-radius: 50%;
+}
+.circle2-p {
+  margin-top: 35px;
+  margin-left: 23px;
+  font-size: 22px;
+}
+
+.containers2 {
+  margin-top: 420px;
+  color: rgb(3, 52, 100);
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 170px;
+}
+.c5 {
+  background-color: #e6edf8;
+  height: 250px;
+  width: 250px;
+}
+.circle3 {
+  color: rgb(3, 52, 100);
+  margin-top: 15px;
+  margin-left: 23px;
+  font-size: 25px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: gold;
+  border-radius: 50%;
+}
+.circle3-p {
+  color: rgb(3, 52, 100);
+  margin-top: 25px;
+  margin-left: 23px;
+  font-size: 22px;
+}
+.circle4 {
+  color: rgb(3, 52, 100);
+  margin-top: 15px;
+  margin-left: 23px;
+  font-size: 25px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: gold;
+  border-radius: 50%;
+}
+.circle4-p {
+  color: rgb(3, 52, 100);
+  margin-top: 25px;
+  margin-left: 23px;
+  font-size: 22px;
+}
+.girl-book-img {
+  display: flex;
+  position: absolute;
+}
+.gb-1 {
+  margin-top: 50px;
+  margin-left: 850px;
+}
+.gb-2 {
+  margin-top: 85px;
+  margin-left: 885px;
+}
+
+.articles {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 810px;
+  background-color: #eff2f5;
+}
+
+.ar-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(3, 52, 100);
+  font-size: 45px;
+  font-family: "EB Garamond", serif;
+}
+.ar-hl {
+  margin-top: 18px;
+  margin-left: 760px;
+  border-bottom: 3px solid gold;
+  width: 60px;
+}
+
+.cards {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(3, 52, 100);
+}
+.icons-footer {
+  margin-bottom: 100px;
+}
+.pages-footer-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pages-footer-p {
+  display: inline-block;
+  vertical-align: middle;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.icons-footer-4 {
+  margin-top: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.facebook2,
+.twitter2,
+.linkedin2,
+.instagram {
+  vertical-align: middle;
+  border: 2px solid whitesmoke;
+  border-radius: 2px;
+  width: 45px;
+  height: 45px;
+  background-color: whitesmoke;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.facebook2:hover,
+.twitter2:hover,
+.linkedin2:hover,
+.instagram:hover {
+  box-shadow: 1px 1px 30px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+
+.explore {
+  margin-bottom: 40px;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+.explore-p {
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-left: 6px;
+}
+.explore-li {
+  margin: 10px;
+  font-size: 17px;
+}
+
+.explore-li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 5px;
+  height: 5px;
+  background-color: gold;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.utility {
+  margin-bottom: 40px;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+.utility-p {
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-left: 6px;
+}
+.utility-li {
+  margin: 10px;
+  font-size: 17px;
+}
+
+.utility-li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 5px;
+  height: 5px;
+  background-color: gold;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.keep {
+  margin-bottom: 73px;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+.keep-p {
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-left: 6px;
+}
+.keep-li {
+  margin: 10px;
+  font-size: 17px;
+}
